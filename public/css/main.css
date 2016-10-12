@@ -1,0 +1,63 @@
+canvas, #shop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#shop{
+  overflow: auto;
+
+}
+
+#info{
+	z-index: 3;
+	display: inline;
+}
+#foreground {
+  z-index: 1;
+}
+#background {
+  z-index: 0;
+}
+#explosions{
+  z-index: 2;
+}
+#menu-toggle {
+  z-index: 3;
+}
+
+#signUpForm, #shop, #levelButtons, #cancel, #saveAlertBad, #saveAlertGood, #levelButtons, #signedInNav, #menu-toggle, #cancelLevel{
+	display: none;
+}
+#signInBox {
+	position: relative;
+	z-index: 3;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#sidebar-wrapper{
+	opacity: .8;
+}
+body {
+	overflow-y:hidden
+}
+#gameContainer{
+    position:fixed;
+    overflow:hidden;
+}
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.3); /*nav background color and opacity*/
+  }
+
+  .navbar-light .navbar-nav .nav-link {/*nav text color*/
+      color:  #262626;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+nav {
+  font-size: 30px;
+
+  color:  #262626;
+}
